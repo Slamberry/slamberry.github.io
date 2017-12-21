@@ -1,5 +1,0 @@
-Standard:
-<link href="https://fonts.googleapis.com/css?family=Sigmar+One" rel="stylesheet">
-
-CSS:
-font-family: 'Sigmar One', cursive;
