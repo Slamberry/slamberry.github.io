@@ -1,0 +1,50 @@
+
+
+html
+{
+    background-color: #FFD700;
+    
+    height: 100%;
+}
+
+body
+{
+    width: 600px;
+    min-height: 100%;
+    margin: 0 auto;
+    background-color: black;
+    padding: 0 20px 0px 20px;
+    box-shadow: inset 0px 0px 0px 5px orange;
+}
+
+
+p, li
+{
+    font-size: 16px;
+    font-family: 'Sigmar One', cursive;
+    line-height: 1,8;
+    letter-spacing: 1px;
+    color: #FFD700;
+}
+
+h1
+{
+    font-size: 60px;
+    text-align: center;
+    color: #FFD700;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 2px orange;
+    
+}
+
+a
+{
+    color: deepskyblue;
+}
+
+img
+{
+    display: block;
+    margin: 0 auto;
+}
