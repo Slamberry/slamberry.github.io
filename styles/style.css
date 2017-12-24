@@ -33,9 +33,22 @@ h1
     text-align: center;
     color: #FFD700;
     margin: 0;
-    padding: 20px 0;
+    padding: 0px 0;
     text-shadow: 3px 3px 2px orange;
+    white-space: pre;
     
+}
+
+h2
+{
+    font-size: 60px;
+    text-align: center;
+    color: #FFD700;
+    margin: 0;
+    padding: 0px 0;
+    text-shadow: 3px 3px 2px orange;
+    white-space: pre;
+    line-height: 30px;
 }
 
 a
