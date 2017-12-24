@@ -46,8 +46,6 @@ function setUserName()
     
     if (number2 > 0)
     {
-        alert(numberSave+number2);
-        
         myHeading.style.fontSize = (numberSave+number2) + "px";  
         
         number2 = 0;
@@ -86,6 +84,21 @@ if (!localStorage.getItem("name"))
 else
     {
         var storedName = localStorage.getItem("name");
+        
+        var length = storedName.length;
+        var number = parseInt (window.getComputedStyle(myHeading, null).getPropertyValue("font-size"));
+        
+        
+        if (length > 7)
+    {
+         myHeading.style.fontSize = number - (length - minusNumber) + "px";  
+        
+        number2 = number2 + (length-minusNumber);
+      
+        numberSave = number - (length - minusNumber);
+    }
+        
+        
         
         myHeading.textContent = storedName;
     }
